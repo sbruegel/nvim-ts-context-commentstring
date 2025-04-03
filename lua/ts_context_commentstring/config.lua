@@ -77,6 +77,7 @@ M.config = {
     html = '<!-- %s -->',
     htmldjango = { __default = '{# %s #}', __multiline = '{% comment %} %s {% endcomment %}' },
     ini = '; %s',
+    less = { __default = '// %s', __multiline = '/* %s */' },
     lua = { __default = '-- %s', __multiline = '--[[ %s ]]' },
     nix = { __default = '# %s', __multiline = '/* %s */' },
     php = { __default = '// %s', __multiline = '/* %s */' },
